@@ -37,7 +37,21 @@ textarea::placeholder {
   color: #d71f1f;  
 }
 body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=47253);}
+#myDIV {
+  border: 1px solid black;
+  background-color: lightblue;
+  width: 270px;
+  height: 200px;
+  overflow: auto;
+}
 
+#myDIV:hover {
+  background-color: coral;
+  width: 570px;
+  height: 500px;
+  padding: 100px;
+  border-radius: 50px;
+}
    
       
   </style>
@@ -124,9 +138,9 @@ body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=47253);}
 <body>
     <textarea style="background-color:#000000; color:#d71f1f; border: 2px solid #d71f1f;border-radius: 20px;" id="text-val" rows="4" placeholder="Type Your Book!"></textarea><br/>
 <input class="button button5" type="button" id="dwn-btn" value="Download Your Book Text (.txt) File!"/><br><br>
-<a href="PS4.zip" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download PS4 Borderlands: The Handsome Collection Save Files!</a><br><br>
-<a href="yt.bat" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Custom Made Book Selector Batch File!</a><br><br>
-<a href="Borderlands 2 All Legendary Weapons.xlsx" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Borderlands 2 All Legendary Weapons Excel Document!</a>
+<a href="PS4.zip" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download PS4 Borderlands: The Handsome Collection Save Files!</a><br><br>
+<a href="yt.bat" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Custom Made Book Selector Batch File!</a><br><br>
+<a href="Borderlands 2 All Legendary Weapons.xlsx" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Borderlands 2 All Legendary Weapons Excel Document!</a>
   
     <script type="text/javascript">//<![CDATA[
 
