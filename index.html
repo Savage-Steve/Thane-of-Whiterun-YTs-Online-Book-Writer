@@ -141,7 +141,16 @@ body {cursor: url(http://www.rw-designer.com/cursor-extern.php?id=47253);}
 <a href="PS4.zip" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download PS4 Borderlands: The Handsome Collection Save Files!</a><br><br>
 <a href="yt.bat" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Custom Made Book Selector Batch File!</a><br><br>
 <a href="Borderlands 2 All Legendary Weapons.xlsx" id="myDiv" style="background-color: #000000;color: #d71f1f;border: 2px solid #d71f1f;border-radius: 20px;" download>Download Borderlands 2 All Legendary Weapons Excel Document!</a>
-  
+<input type="text" id="f1">
+<input type="text" id="f2">
+<input type="button" id="b1" value="interchange">
+
+$(document).ready(function(){
+   $("#id1").click(function(){
+     var f1 = $("#f1").val();
+      $("#f2").val(f1);
+   })
+}) 
     <script type="text/javascript">//<![CDATA[
 
 
