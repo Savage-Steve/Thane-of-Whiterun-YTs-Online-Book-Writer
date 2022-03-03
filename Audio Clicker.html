@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+    </style>
+    <script src="/scripts/snippet-javascript-console.min.js?v=1"></script>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input type="file" id="upload" />
+<audio id="audio" controls>
+  <source src="" id="src" />
+</audio>
+    <script type="text/javascript">
+        function handleFiles(event) {
+    var files = event.target.files;
+    $("#src").attr("src", URL.createObjectURL(files[0]));
+    document.getElementById("audio").load();
+}
+
+document.getElementById("upload").addEventListener("change", handleFiles, false);
+    </script>
+<script type='text/javascript'  src="https://stacksnippets.net/ee8d980c81da193a9a72a6deefbf8e78384a0269a519e12de332b6b3e0b2023d/inject.js"></script>
+</body>
+</html>
